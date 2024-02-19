@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ptum
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0073-tenant/tkrw-pr712-0075-0073-app/devfile-sample-ptum@sha256:73e762d542914a99cedf7e9cb1f207d2f65e2d1323590faa3623b1358a3c3d31
         name: my-nodejs
         ports:
         - containerPort: 3001
